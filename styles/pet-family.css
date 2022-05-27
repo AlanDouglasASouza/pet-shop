@@ -48,7 +48,7 @@
     background-image: url('../assets/background-pet-03.png');
 }
 
-#back-4 {
+#back-04 {
     background-image: url('../assets/background-pet-01.png');
 }
 
@@ -86,5 +86,11 @@
         height: 50vw;
         width: 100%;           
         background-size: 100vh;              
+    }
+}
+
+@media(max-width: 450px) {
+    #box-family {
+        display: none;
     }
 }
