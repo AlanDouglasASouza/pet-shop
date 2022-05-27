@@ -1,0 +1,90 @@
+#pet-family {   
+    height: 100vh;
+    width: 100%;   
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+#box-family {
+    position: absolute;
+    left: 33%;
+    top: 62%;    
+    height: auto;
+    width: 40%;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Carrosel */
+
+#container-carrosel {
+    display: flex;
+    height: 100%;
+    width: 400%;
+    animation-name: carrosel;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;    
+}
+
+.carrosel {
+    height: 100%;
+    width: 25%;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#back-01 {
+    background-image: url('../assets/background-pet-01.png');
+}
+
+#back-02 {
+    background-image: url('../assets/background-pet-02.png');
+}
+
+#back-03 {
+    background-image: url('../assets/background-pet-03.png');
+}
+
+#back-4 {
+    background-image: url('../assets/background-pet-01.png');
+}
+
+/* Fim do carrosel */
+
+#box-family h1 {
+    font-size: 5vw;    
+}
+
+#chat {
+    display: flex;
+    position: fixed;
+    width: 300px;
+    height: 60px;
+    left: 75%;
+    top: 88%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #C5E8F4;
+    align-items: center;
+    font-size: 14pt;
+    justify-content: center;
+    font-weight: normal;
+    color: #4F717B;
+}
+
+@media(max-width: 800px){
+    #box-family {
+        top: 50vw;
+    }
+    #chat {
+        display: none;
+    }
+    #pet-family {            
+        height: 50vw;
+        width: 100%;           
+        background-size: 100vh;              
+    }
+}
