@@ -7,8 +7,10 @@
 
 .photos {
     display: flex;
-    height: 50%;
-    width: 100%;    
+    /* height: 50%; */
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .box-photo {
@@ -72,4 +74,10 @@
 
 #photo-12 {
     background-image: url('../assets/pet-12.jpeg');
+}
+
+@media(max-width: 800px) {
+    .box-photo {
+        width: 25%;
+    }
 }

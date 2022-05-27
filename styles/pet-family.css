@@ -37,3 +37,14 @@
     font-weight: normal;
     color: #4F717B;
 }
+
+@media(max-width: 800px){
+    #chat {
+        display: none;
+    }
+    #pet-family {            
+        height: 50vw;
+        width: 100%;           
+        background-size: 100vh;              
+    }
+}

@@ -66,3 +66,40 @@
 .bt-options:hover {
     background-color: #539eb4;
 }
+
+@media(max-width: 800px) {
+    #container-options {
+        height: auto;
+    }
+    #box-title-options {
+        width: 70%;
+    }
+    #bottom-options {
+        height: auto;
+    }
+    #box-title-options h1{
+        font-size: 7vw;
+        line-height: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #box-title-options p {
+        font-size: 4vw;        
+    }
+    #container-box-options {
+        flex-wrap: wrap;
+    }
+    .box-options {
+        width: 80%;
+        height: auto;
+        margin: 30px;
+    }
+    .box-options p {
+        font-size: 4vw;
+    }
+    .bt-options {
+        font-size: 4vw;
+        width: 150px;
+    }
+
+}

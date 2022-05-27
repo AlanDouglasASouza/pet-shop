@@ -24,3 +24,14 @@
 #footer-left a {
     margin-right: 5px;
 }
+
+@media(max-width: 800px) {
+    #box-footer {
+        flex-wrap: wrap;
+        justify-content: end;
+        font-size: 4vw;
+    }
+    #footer-rigth {
+        display: none;
+    }
+}
