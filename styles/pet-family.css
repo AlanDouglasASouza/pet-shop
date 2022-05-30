@@ -9,11 +9,16 @@
 
 #box-family {
     position: absolute;
-    left: 33%;
-    top: 62%;    
-    height: auto;
-    width: 40%;
-    color: #ffffff;
+    /* left: 33%;
+    top: 62%;     */    
+    height: 0vh;
+    width: 40%;    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;    
     text-align: center;
 }
 
@@ -75,9 +80,9 @@
     color: #4F717B;
 }
 
-@media(max-width: 800px){
+@media(max-width: 1200px){
     #box-family {
-        top: 50vw;
+        height: 20vh;
     }
     #chat {
         display: none;
@@ -89,8 +94,9 @@
     }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 500px) {
     #box-family {
-        display: none;
+        height: 30vh;
+        width: 60%;
     }
 }
